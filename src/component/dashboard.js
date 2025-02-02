@@ -9,7 +9,7 @@ import exImg from "../assets/expense-track.png";
 import ExpensePieChart from "./Graphics/PieChart";
 import BarGraph from "./Graphics/BarGraph";
 import { baseURL } from "../URL";
-
+import '../style/grapics.css'
 const Dashboard = () => {
   const navigate = useNavigate();
   const [checking, setchecking] = useState(false);

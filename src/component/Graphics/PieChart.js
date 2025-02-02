@@ -10,6 +10,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import '../../style/grapics.css'
+import '../../style/dash.css'
 import { toast, ToastContainer } from "react-toastify";
 const ExpensePieChart = () => {
   const getRandomDarkColor = () => `hsl(${Math.random() * 360}, 50%, 30%)`;

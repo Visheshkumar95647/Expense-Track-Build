@@ -102,7 +102,9 @@ main .btn-2{
     justify-content: center;
     flex-direction: column;
 }
-
+.form{
+    z-index: 1;
+}
 .form .btns button{
     width: 100px;
     display: flex;
